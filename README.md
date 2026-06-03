@@ -3,7 +3,7 @@
 An project demonstrating safe local-scoped application event handling alongside a comprehensive cybersecurity defensive analysis report.
 
 ## Overview
-This folder contains two main components:
+This folder contains 1 main component:
 **`key_listener.py`**: A safe local key logger that uses Python's built-in `tkinter` graphical engine to render a simple writing editor. Keystrokes are intercepted *only* when the editor window has focus. Keystrokes entered outside the application are completely ignored.
 
 ### Prerequisites
