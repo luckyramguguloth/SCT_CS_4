@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
 """
 Task 04: Local Window Key Logger (Educational Scope)
 SkillCraft Technology Cybersecurity Internship
-
 This script demonstrates a local key logging interface.
 It is strictly scoped to capture events occurring *only* within its own GUI window.
 This highlights the programming concept of event handling/logging without creating 
@@ -19,9 +17,7 @@ except ImportError:
     print("[!] Error: 'tkinter' library is required to run the local GUI listener.")
     print("    This is normally packaged with Python on Windows. Please check your install.")
     sys.exit(1)
-
 LOG_FILE = "local_events.txt"
-
 class LocalKeyListenerApp:
     def __init__(self, root):
         self.root = root
@@ -29,10 +25,8 @@ class LocalKeyListenerApp:
         self.root.geometry("500x350")
         self.root.resizable(False, False)
         
-        # Configure layout/colors
         self.root.configure(bg="#1E1E1E")
         
-        # Banner/Header
         self.header = tk.Label(
             root,
             text="Local GUI Key Logger (Educational Demo)",
@@ -42,7 +36,6 @@ class LocalKeyListenerApp:
         )
         self.header.pack(pady=10)
         
-        # Information text
         self.info = tk.Label(
             root,
             text="Type anywhere in the text area below.\nYour keystrokes are recorded ONLY within this program window\nand logged to: local_events.txt",
@@ -53,7 +46,6 @@ class LocalKeyListenerApp:
         )
         self.info.pack(pady=5)
         
-        # Text input area
         self.text_area = tk.Text(
             root,
             width=50,
@@ -76,10 +68,7 @@ class LocalKeyListenerApp:
         with open(self.log_file_path, "a", encoding="utf-8") as f:
             f.write(f"\n--- SESSION STARTED AT {time.strftime('%Y-%m-%d %H:%M:%S')} ---\n")
             
-        # Bind event handler for key press events inside the application window
         self.text_area.bind("<KeyPress>", self.log_keypress)
-        
-        # Footer label showing status
         self.status = tk.Label(
             root,
             text="Status: Listening locally...",
@@ -98,7 +87,6 @@ class LocalKeyListenerApp:
         key_char = event.char
         key_name = event.keysym
         
-        # Format logging display representation
         if not key_char or ord(key_char) < 32:
             display_str = f"[{key_name}]"
         else:
