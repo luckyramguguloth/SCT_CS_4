@@ -1,0 +1,76 @@
+
+--- SESSION STARTED AT 2026-06-01 09:51:18 ---
+[09:51:33] Key: h               Char: h
+[09:51:33] Key: e               Char: e
+[09:51:33] Key: y               Char: y
+[09:51:34] Key: space           Char:  
+[09:51:34] Key: h               Char: h
+[09:51:34] Key: u               Char: u
+[09:51:34] Key: space           Char:  
+[09:51:36] Key: w               Char: w
+[09:51:36] Key: h               Char: h
+[09:51:36] Key: a               Char: a
+[09:51:37] Key: t               Char: t
+[09:51:37] Key: space           Char:  
+[09:51:37] Key: a               Char: a
+[09:51:37] Key: r               Char: r
+[09:51:37] Key: e               Char: e
+[09:51:37] Key: space           Char:  
+[09:51:38] Key: y               Char: y
+[09:51:38] Key: o               Char: o
+[09:51:38] Key: u               Char: u
+[09:51:38] Key: space           Char:  
+[09:51:38] Key: d               Char: d
+[09:51:38] Key: o               Char: o
+[09:51:38] Key: i               Char: i
+[09:51:39] Key: i               Char: i
+[09:51:39] Key: n               Char: n
+[09:51:39] Key: g               Char: g
+[09:51:39] Key: space           Char:  
+[09:51:40] Key: Shift_L         Char: [Shift_L]
+[09:51:40] Key: at              Char: @
+[09:51:41] Key: 1               Char: 1
+[09:51:42] Key: 5               Char: 5
+[09:51:42] Key: 7               Char: 7
+[09:51:42] Key: 6               Char: 6
+[09:51:42] Key: 8               Char: 8
+[09:51:42] Key: 7               Char: 7
+[09:51:42] Key: 9               Char: 9
+[09:51:44] Key: 5               Char: 5
+[09:51:44] Key: 4               Char: 4
+[09:51:44] Key: 5               Char: 5
+[09:51:44] Key: 2               Char: 2
+[09:51:44] Key: 1               Char: 1
+[09:51:44] Key: 5               Char: 5
+[09:51:45] Key: h               Char: h
+[09:51:45] Key: v               Char: v
+[09:51:45] Key: y               Char: y
+[09:51:45] Key: x               Char: x
+[09:51:45] Key: c               Char: c
+[09:51:45] Key: y               Char: y
+[09:51:45] Key: c               Char: c
+[09:51:45] Key: k               Char: k
+[09:51:45] Key: b               Char: b
+[09:51:45] Key: h               Char: h
+[09:51:45] Key: v               Char: v
+[09:51:45] Key: c               Char: c
+[09:51:45] Key: y               Char: y
+[09:51:45] Key: f               Char: f
+[09:51:45] Key: x               Char: x
+[09:51:46] Key: h               Char: h
+[09:51:46] Key: b               Char: b
+[09:51:46] Key: o               Char: o
+[09:51:46] Key: j               Char: j
+[09:51:46] Key: b               Char: b
+[09:51:46] Key: u               Char: u
+[09:51:46] Key: c               Char: c
+[09:51:46] Key: t               Char: t
+[09:52:33] Key: Escape          Char: [Escape]
+[09:52:33] Key: Escape          Char: [Escape]
+[09:52:34] Key: Escape          Char: [Escape]
+[09:52:34] Key: Escape          Char: [Escape]
+[09:52:34] Key: Escape          Char: [Escape]
+[09:52:34] Key: Escape          Char: [Escape]
+[09:52:35] Key: Escape          Char: [Escape]
+[09:52:35] Key: Alt_L           Char: [Alt_L]
+[09:52:36] Key: F4              Char: [F4]
